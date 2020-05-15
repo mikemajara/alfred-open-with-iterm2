@@ -4,7 +4,7 @@
 Opens iTerm2 directly in the Finder selection folder, or allows to search through [Alfred](https://www.alfredapp.com/) file explorer to open one.
 
 ## Instalation 👷🏻‍♂️
-Download the workflow
+[Download the workflow](https://github.com/MikeMajara/alfred-open-with-iterm2/releases/tag/0.1.0)
 Double click the `.alfredworkflow` file to install
 
 ## ACK 🙏🏻
