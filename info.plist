@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.MikeMajara.iTerm2</string>
+	<string>com.MikeMajara.iterm2</string>
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
@@ -172,48 +172,6 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Open with iterm2</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>C8DBBD25-D349-4EBD-BA38-4CF5FDB57EAF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>iterm2</string>
-				<key>subtext</key>
-				<string>Open Finder folder or selection in iTerm2 or optionally enter a path to open</string>
-				<key>text</key>
-				<string>Open with iterm2</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>CC170ECD-6B82-4A05-8681-8185ACE453FE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>anchorfields</key>
 				<true/>
 				<key>argumenttrimmode</key>
@@ -289,17 +247,59 @@ end alfred_script</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Open with iterm2</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>C8DBBD25-D349-4EBD-BA38-4CF5FDB57EAF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>iterm2</string>
+				<key>subtext</key>
+				<string>Open Finder folder or selection in iTerm2 or optionally enter a path to open</string>
+				<key>text</key>
+				<string>Open with iterm2</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CC170ECD-6B82-4A05-8681-8185ACE453FE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string>An Alfred 3 workflow for opening files or folders with Visual Studio Code. Based off of the Alfred 2 workflow from @franzheidl.</string>
+	<string>An Alfred 3 workflow for opening files or folders with iTerm2. Based off on @alexchantastic's workflows.</string>
 	<key>uidata</key>
 	<dict>
 		<key>23DEA358-A623-4725-95B2-79C207AF4556</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>295</integer>
 			<key>ypos</key>
-			<integer>365</integer>
+			<integer>215</integer>
 		</dict>
 		<key>577E7995-64DC-454D-B3F1-4FB96CC5AA65</key>
 		<dict>
@@ -320,7 +320,7 @@ end alfred_script</string>
 			<key>xpos</key>
 			<integer>300</integer>
 			<key>ypos</key>
-			<integer>215</integer>
+			<integer>370</integer>
 		</dict>
 		<key>DDFAE429-BEEC-49EA-BEDB-7E71BD402695</key>
 		<dict>
@@ -333,8 +333,8 @@ end alfred_script</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.1.0</string>
+	<string>0.1.0</string>
 	<key>webaddress</key>
-	<string>https://github.com/mikemajara/alfred-iterm2</string>
+	<string>https://github.com/mikemajara/alfred-open-with-iterm2</string>
 </dict>
 </plist>
